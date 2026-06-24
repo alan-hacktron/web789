@@ -45,3 +45,4 @@ def register_routes(app):
 
         conn.close()
         return jsonify({"error": "Insufficient funds"}), 400
+
