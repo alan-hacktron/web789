@@ -1,2 +1,2 @@
 fail_on:
-  severity: critical
+  severity: low
