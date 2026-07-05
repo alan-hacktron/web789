@@ -1,5 +1,2 @@
 fail_on:
   severity: low
-skip:
-  labels:
-    - "repo-skip-label"
