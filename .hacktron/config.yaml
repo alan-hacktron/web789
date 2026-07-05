@@ -1,9 +1,5 @@
 fail_on:
   severity: low
-include:
-  branches:
-    - "feature/*"
-    - "release/**"
 skip:
-  branches:
-    - "hotfix/*"
+  labels:
+    - "repo-skip-label"
