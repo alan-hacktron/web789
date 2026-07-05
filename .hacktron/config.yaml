@@ -1,8 +1,2 @@
 fail_on:
   severity: low
-include:
-  labels:
-    - "random-label"
-skip:
-  labels:
-    - "needs-scan"
