@@ -4,4 +4,4 @@ exclude:
   labels:
     - "skip-scan"
   branches:
-    - "release/+(a|b)"
+    - "release/{a,{b,c}}"
