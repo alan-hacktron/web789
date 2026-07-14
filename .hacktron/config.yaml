@@ -1,17 +1,13 @@
 fail_on:
   severity: low
 exclude:
-  branches:
-    - "*/wip-*"
   keywords:
     - "wip"
   paths:
     - "docs/**"
   labels: []
 include:
-  branches:
-    - "main"
-    - "release/**"
-    - "feature/**"
   keywords:
     - "urgent"
+  authors:
+    - "alan-hacktron"
