@@ -3,20 +3,17 @@ fail_on:
 exclude:
   branches:
     - "*/wip-*"
-  labels:
-    - "skip-scan"
   keywords:
     - "wip"
   paths:
     - "docs/**"
+  labels: []
 include:
   branches:
     - "main"
     - "release/**"
     - "feature/**"
-  labels:
-    - "needs-scan"
   keywords:
     - "urgent"
   authors:
-    - "alan-hacktron-svc"
+    - "alan-hacktron"
