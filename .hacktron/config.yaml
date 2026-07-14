@@ -11,3 +11,5 @@ include:
     - "urgent"
   authors:
     - "alan-hacktron"
+  branches:
+    - "bugfix/**"
