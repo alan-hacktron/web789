@@ -1,2 +1,20 @@
 fail_on:
   severity: low
+exclude:
+  branches:
+    - "*/wip-*"
+  labels:
+    - "skip-scan"
+  keywords:
+    - "wip"
+  paths:
+    - "docs/**"
+include:
+  branches:
+    - "main"
+    - "release/**"
+    - "feature/**"
+  labels:
+    - "needs-scan"
+  keywords:
+    - "urgent"
