@@ -4,4 +4,4 @@ exclude:
   labels:
     - "skip-scan"
   branches:
-    - "*a*a*a*a*a*a*c"
+    - "release/{a,b,c,d,e,f,g,h,i,j,k}"
