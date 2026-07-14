@@ -4,4 +4,4 @@ exclude:
   labels:
     - "skip-scan"
   branches:
-    - "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    - "*a*a*a*a*a*a*c"
