@@ -15,5 +15,3 @@ include:
     - "feature/**"
   keywords:
     - "urgent"
-  authors:
-    - "alan-hacktron"
