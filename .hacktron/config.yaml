@@ -1,15 +1,7 @@
 fail_on:
   severity: low
 exclude:
-  keywords:
-    - "wip"
-  paths:
-    - "docs/**"
-  labels: []
-include:
-  keywords:
-    - "urgent"
-  authors:
-    - "alan-hacktron"
+  labels:
+    - "skip-scan"
   branches:
-    - "bugfix/**"
+    - "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
